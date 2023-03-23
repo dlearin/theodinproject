@@ -18,3 +18,5 @@ export function createClassMain() {
     //incopramos classMain al content
     content.appendChild(classMain);
   }
+
+  export const content = document.querySelector('.content');

@@ -26,5 +26,7 @@ export function createClassNav(){
     nav.appendChild(ulNav);
     //agregamos nav a content
     container.appendChild(nav);
+    return li1Nav;
+
   }
   
