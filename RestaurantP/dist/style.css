@@ -1,0 +1,9 @@
+.nav{
+    display: grid;
+}
+
+.nav > ul{
+    display: grid;
+    border: 2px black solid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
