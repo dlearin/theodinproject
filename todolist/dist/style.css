@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-size: 50px !important;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 3fr 3fr;
+	grid-template-rows: auto 1fr;
+	grid-gap: 10px;
+    height: 100vh;
+}
+
+.todolist {
+	grid-column: 1/4;
+	background-color: #ccc;
+	padding: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.sidebar {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	background-color: #ddd;
+	padding: 10px;
+}
+
+.row1 {
+	grid-row: 1/2;
+	background-color: #aaa;
+	padding: 10px;
+}
+
+.row2 {
+	grid-row: 2/3;
+	background-color: #bbb;
+	padding: 10px;
+}
+
+.row3 {
+	grid-row: 3/4;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+.row4{
+    grid-row: 4/5;
+	background-color: #f9dfdf;
+	padding: 10px;
+}
+
+.main {
+	grid-column: 2/4;
+	grid-row: 2/3;
+	background-color: #eee;
+	padding: 20px;
+}
