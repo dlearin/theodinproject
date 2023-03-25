@@ -1,8 +1,11 @@
-class toDo {
+export class toDo {
+    constructor (title, description, priority) {
 
-    var title
-    var description
-    var dueDate
-    var priority
+        this.title = title;
+        this.description = description;
+        /*this.dueDate= dueDate;
+        this.priority= priority;*/
+
+    }
 
 };
